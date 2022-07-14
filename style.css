@@ -4,6 +4,7 @@ body , html{
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 400;
+    overflow-x: hidden;
 }
 
 .pimg1, .pimg2 , .pimg3{
@@ -92,6 +93,16 @@ body , html{
 
 .listf li{
     text-align: left;
+}
+
+footer{
+    text-align: center;
+    background-color: #fff;
+    padding: 0.1em;
+    bottom: 0;
+    font-size: 10px;
+    width: 100%;
+    position: relative;
 }
 
 @media screen and (max-width:568px){
