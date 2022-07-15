@@ -23,19 +23,19 @@ body , html{
 }
 
 .pimg1{
-    background-image:url(/img/framecolor.jpg);
+    background-image:url('img/framecolor.jpg');
     min-height: 100%;
     background-repeat:no-repeat;
 }
 
 .pimg2{
-    background-image:url(/img/framemid.jpg);
+    background-image:url('img/framemid.jpg');
     min-height: 40%;
     background-repeat:no-repeat;
 }
 
 .pimg3{
-    background-image:url(/img/framebw.jpg);
+    background-image:url('img/framebw.jpg');
     min-height: 40%;
     background-repeat:no-repeat;
 }
