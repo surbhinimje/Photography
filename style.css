@@ -1,7 +1,7 @@
 body , html{
     height: 100%;
     margin: 0;
-    font-size: 1rem;
+    font-size: 1em;
     font-family: sans-serif;
     font-weight: 400;
     overflow-x: hidden;
@@ -47,7 +47,7 @@ body , html{
 
 .section p{
     text-align:justify;
-    padding: 0.313rem;
+    padding: 0.313em;
 }
 
 .section-light{
@@ -66,21 +66,21 @@ body , html{
     width: 100%;
     text-align: center;
     color: #000;
-    font-size: 1.75rem;
-    letter-spacing: 0.438rem;
+    font-size: 1.75em;
+    letter-spacing: 0.438em;
     text-transform: uppercase;
 }
 
 .ptext .border.head{
     background-color: #fff;
     color: #000;
-    padding: 1.25rem;
+    padding: 1.25em;
 }
 
 .ptext .border.tail{
     background-color: #000;
     color: #fff;
-    padding: 1.25rem;
+    padding: 1.25em;
 }
 
 
@@ -88,7 +88,7 @@ body , html{
     background-color: #111;
     color: #fff;
     opacity: 0.70;
-    padding: 0.938rem;
+    padding: 0.938em;
 }
 
 .listf li{
@@ -123,15 +123,15 @@ footer{
     }
 
     .ptext{
-        letter-spacing: 0.188rem;
-        font-size: 1.125rem;
+        letter-spacing: 0.188em;
+        font-size: 1.125em;
         text-align: center;
     }
 
     .ptext .border{
         background-color: #111;
         color: #fff;
-        padding: 0.625rem;
+        padding: 0.625em;
     }
 
     
