@@ -1,31 +1,23 @@
-body , html{
-    height: 100%;
-    margin: 0;
-
-    font-family: sans-serif;
-    font-weight: 400;
-    overflow-x: hidden;
-    line-height: 1;
-}
-
-.pimg1, .pimg2 , .pimg3{
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    /* THIS ADDS PARALLAX AFFECT */
-
-    background-attachment: fixed;
-
-     /* TO REMOVE PARALLAX AFFECT
-        background-attachment:scroll;
-
-     */
+body,html{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.2em;
+  color: #666;
 
 }
-p{
-  font-size: 0.6vw;
-}
+.pimg1, .pimg2, .pimg3{
+  position: relative;;
 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* fixed=parallax
+    scroll=normal*/
+}
 .pimg1{
     background-image:url('img/framecolor.jpg');
     min-height: 100%;
@@ -43,120 +35,66 @@ p{
     min-height: 70%;
     background-repeat:no-repeat;
 }
-
 .section{
-    text-align: center;
-    padding: 2% 8%;
-}
-
-.section p{
-    text-align:justify;
-    padding: 1%;
-}
-
-.section-light{
-    background-color: #f4f4f4;
-    color: #666;
-}
-
-.section-dark{
-    background-color: #282e34;
-    color: #ddd;
-}
-
-.ptext{
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-    font-size: 1.5vw;
-    letter-spacing: 1vw;
-    text-transform: uppercase;
+  text-align: justify;
+  padding: 50px 80px;
 }
 h2{
-  font-size: 1.5vw;
+  text-align: center;
 }
-
-.ptext .border.head{
-    background-color: #fff;
-    color: #000;
-    padding: 2%;
+.section-dark{
+  background-color:#111;
+  color: #FFF;
 }
-
-.ptext .border.tail{
-    background-color: #000;
-    color: #fff;
-    padding: 1%;
+.section-light{
+  background-color: #FFF;
+  color: #111;
 }
-
-
-.ptext .border.trans{
-    background-color: #111;
-    color: #fff;
-    opacity: 0.70;
-    padding: 2%;
+.ptext{
+  position: absolute;
+  top:50%;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
 }
+.ptext .border{
+  background-color: #111;
+  color: #FFFFFF;
+  padding: 20px;
 
-.listf li{
-    text-align: left;
-    font-size: 1.25vw;
 }
-
+.ptext .border .trans{
+  background-color: transparent;
+}
 footer{
     text-align: center;
     background-color: #fff;
-    padding: 0.5%;
+    padding: 0.1em;
     bottom: 0;
-    font-size: 0.45vw;
+    font-size: 16px;
     width: 100%;
     position: relative;
 }
-/*biiger screen*/
 @media only screen and (max-device-width: 1366px){
-    .pimg1, .pimg2 , .pimg3{
-        position: relative;
-        min-height: 100%;
-        background-position: center;
-        background-attachment:scroll;
-    }
-
-    .section{
-        text-align: center;
-        padding: 5% 10%;
-    }
-
-    .section p{
-        text-align:justify
-    }
-
-    .ptext{
-        letter-spacing: 1vw;
-        font-size: 1.5vw;
-        text-align: center;
-    }
-
-    .ptext .border{
-        background-color: #111;
-        color: #fff;
-        padding: 0.5vw;
-    }
-
+  .pimg1, .pimg2, .pimg3{
+    background-attachment: scroll;
+  }
+  .ptext{
+    font-size: 1.2em;
+    letter-spacing: 10px;
+  }
 
 }
 @media only screen and (min-device-width: 1366px){
   .ptext{
-    font-size: 2.25vw;
-    letter-spacing: 1vw;
-  }
-  p{
-    font-size: 1.25vw;
-  }
-  h2{
-  font-size: 1.75vw;
+    font-size: 2vw;
+    letter-spacing: 10px;
   }
   .ptext .border{
-    padding: 1.5vw;
+    padding: 25px;
   }
 
 }
