@@ -136,3 +136,13 @@ footer{
 
     
 }
+@media only screen and (min-device-width: 1366px){
+  .ptext{
+    font-size: 2vw;
+    letter-spacing: 10px;
+  }
+  .ptext .border{
+    padding: 25px;
+  }
+  
+}
